@@ -7,7 +7,7 @@ Myp = socket.SOCK_STREAM
 
 s = socket.socket(AF,Myp)
 
-ip = "192.168.0.143"
+ip = ""
 port = 2222
 
 s.bind((ip,port))
